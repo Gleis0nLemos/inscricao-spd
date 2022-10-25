@@ -65,6 +65,7 @@ your master key.
 rails credentials:edit
 ```
 
+
 2. This will open the `nano` editor which will allow you to edit the file in YAML format.
 Here, you have the option of adding additional secret information, such as API keys for 3rd
 party services. It will initially contain a single secret value called `secret_key_base`
